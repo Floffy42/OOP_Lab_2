@@ -11,7 +11,7 @@ namespace OOP_Lab_2
         //кожен 100ий рік - НЕ високосний
         //кожен 400ий рік - високосний
 
-        private static void Main(string[] args)
+        public static void Run()
         {
             while (true)
             {
