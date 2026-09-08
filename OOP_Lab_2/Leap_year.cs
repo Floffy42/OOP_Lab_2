@@ -21,7 +21,7 @@ namespace OOP_Lab_2
                 Console.Write("Введіть рік: ");
                 int year = Convert.ToInt32(Console.ReadLine());
 
-                if (year % 4 == 0)
+                if (year % 400 == 0)
                 {
                     Console.WriteLine($"Рік {year} є високосним.");
                 }
@@ -29,7 +29,7 @@ namespace OOP_Lab_2
                 {
                     Console.WriteLine($"Рік {year} НЕ є високосним.");
                 }
-                else if (year % 400 == 0)
+                else if (year % 4 == 0)
                 {
                     Console.WriteLine($"Рік {year} є високосним.");
                 }
