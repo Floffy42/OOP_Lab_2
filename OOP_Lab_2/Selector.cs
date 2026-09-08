@@ -16,10 +16,11 @@ namespace OOP_Lab_2
                 Console.WriteLine("Оберіть завдання:");
                 Console.WriteLine("1 - Високосний рік");
                 Console.WriteLine("2 - Піраміда");
-                Console.WriteLine("3 - Поки без логіки");
+                Console.WriteLine("3 - Хто хоче бути міліонером");
                 Console.WriteLine("4 - Поки без логіки");
 
-                Console.Write("");
+                Console.WriteLine("");
+                Console.Write("Ваш вибір: ");
                 string? choice = Console.ReadLine();
 
                 if (choice == null)
@@ -41,7 +42,7 @@ namespace OOP_Lab_2
 
                     case "3":
                         Console.WriteLine("");
-                        Console.WriteLine("Поки без логіки");
+                        WhoWantsToBeMillionaire.Run();
                         break;
 
                     case "4":
